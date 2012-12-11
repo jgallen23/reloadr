@@ -13,9 +13,9 @@
     "livereload-server": "~0.2.1"
   },
   "devDependencies": {},
-  "main": "./index.js",
+  "main": "./lib/reloadr.js",
   "scripts": {},
   "bin": {
-    "reloadr": "index.js"
+    "reloadr": "./bin/reloadr.js"
   }
 }
