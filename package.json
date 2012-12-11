@@ -1,0 +1,21 @@
+{
+  "name": "reloadr",
+  "description": "livereload cli tool",
+  "homepage": "https://github.com/jgallen23/reloadr",
+  "author": "Greg Allen <@jgaui> (http://jga.me)",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgallen23/reloadr.git"
+  },
+  "dependencies": {
+    "gaze": "~0.2.2",
+    "livereload-server": "~0.2.1"
+  },
+  "devDependencies": {},
+  "main": "./index.js",
+  "scripts": {},
+  "bin": {
+    "reloadr": "index.js"
+  }
+}
