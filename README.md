@@ -1,6 +1,6 @@
 #reloadr
 
-A very simple LiveReload server that watches the current directory for file changes.
+A very simple LiveReload cli tool that watches the current directory for file changes.
 
 ##Install
 
