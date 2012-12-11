@@ -3,6 +3,16 @@
 
 var reloadr = require('../lib/reloadr');
 
-reloadr.start(function() {
-  console.log('LiveReload server started');
+var folders = [];
+for (var i = 2, c = process.argv.length; i < c; i++) {
+  var item = process.argv[i];
+  folders.push(item);
+}
+
+if (folders.length == 0) {
+  folders.push('**/*');
+}
+
+reloadr.start(folders, function() {
+  console.log('LiveReload server started.  Watching: ' + folders.join(','));
 });
