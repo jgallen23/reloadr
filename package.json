@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "gaze": "~0.2.2",
-    "livereload-server": "~0.2.1"
+    "livereload-server": "~0.2.1",
+    "debug": "~0.7.0",
+    "optimist": "~0.3.5"
   },
   "devDependencies": {},
   "main": "./lib/reloadr.js",
