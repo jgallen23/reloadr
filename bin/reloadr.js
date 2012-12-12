@@ -16,3 +16,7 @@ if (folders.length == 0) {
 reloadr.start(folders, function() {
   console.log('LiveReload server started.  Watching: ' + folders.join(','));
 });
+
+reloadr.changed(function(filepath) {
+  console.log('File changed: '+ filepath);
+});
