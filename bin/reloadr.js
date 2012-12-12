@@ -35,9 +35,19 @@ if (folders.length == 0) {
 }
 
 reloadr.start(folders, function() {
+  console.log('');
   console.log('LiveReload server started.  Watching: ' + folders.join(','));
+  console.log('');
 });
 
+var timeout;
+var files = [];
 reloadr.changed(function(filepath) {
-  console.log('File changed: '+ filepath);
+  console.log('\tFile changed: '+ filepath);
+  if (timeout) {
+    clearTimeout(timeout);
+  }
+  timeout = setTimeout(function() {
+    console.log('');
+  }, 1000);
 });
