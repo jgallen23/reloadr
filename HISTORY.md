@@ -1,4 +1,11 @@
 
+0.1.0 / 2012-12-12 
+==================
+
+  * feature[cli] prettier output
+  * feature[debug] added debug messages to reloadr and server
+  * feature[bin] added --help and --version
+
 0.0.2 / 2012-12-11 
 ==================
 
