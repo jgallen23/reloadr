@@ -3,7 +3,7 @@
   "description": "livereload cli tool",
   "homepage": "https://github.com/jgallen23/reloadr",
   "author": "Greg Allen <@jgaui> (http://jga.me)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/jgallen23/reloadr.git"
