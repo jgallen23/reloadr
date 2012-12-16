@@ -9,7 +9,7 @@
     "url": "https://github.com/jgallen23/reloadr.git"
   },
   "dependencies": {
-    "gaze": "~0.2.2",
+    "gaze": "~0.3.0",
     "livereload-server": "~0.2.1",
     "debug": "~0.7.0",
     "optimist": "~0.3.5"
